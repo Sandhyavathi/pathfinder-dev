@@ -9,13 +9,15 @@ import {
   User, 
   Menu, 
   X,
-  Zap
+  Zap,
+  ClipboardCheck
 } from "lucide-react";
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: BookOpen },
   { name: "Chat", href: "/chat", icon: MessageSquare },
   { name: "Projects", href: "/projects", icon: Code2 },
+  { name: "Assessment", href: "/assessment", icon: ClipboardCheck },
   { name: "Progress", href: "/progress", icon: Trophy },
 ];
 

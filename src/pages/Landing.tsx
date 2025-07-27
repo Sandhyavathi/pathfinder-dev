@@ -111,8 +111,8 @@ export default function Landing() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-slide-up">
               <Button size="xl" variant="hero" asChild>
-                <Link to="/dashboard">
-                  Start Learning Free
+                <Link to="/assessment">
+                  Start Your Assessment
                   <ArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
@@ -222,8 +222,8 @@ export default function Landing() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="xl" variant="secondary" asChild>
-              <Link to="/dashboard">
-                Get Started Free
+              <Link to="/assessment">
+                Take Assessment
                 <Rocket className="h-5 w-5" />
               </Link>
             </Button>

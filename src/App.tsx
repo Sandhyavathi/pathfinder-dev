@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Chat from "./pages/Chat";
 import Projects from "./pages/Projects";
 import Profile from "./pages/Profile";
+import Assessment from "./pages/Assessment";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ function AppContent() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/assessment" element={<Assessment />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
