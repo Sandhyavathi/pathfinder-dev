@@ -15,10 +15,10 @@ import {
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: BookOpen },
+  { name: "Workspace", href: "/workspace", icon: Code2 },
   { name: "Chat", href: "/chat", icon: MessageSquare },
   { name: "Projects", href: "/projects", icon: Code2 },
   { name: "Assessment", href: "/assessment", icon: ClipboardCheck },
-  { name: "Progress", href: "/progress", icon: Trophy },
 ];
 
 export function Navbar() {

@@ -10,6 +10,7 @@ import Chat from "./pages/Chat";
 import Projects from "./pages/Projects";
 import Profile from "./pages/Profile";
 import Assessment from "./pages/Assessment";
+import Workspace from "./pages/Workspace";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ function AppContent() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/assessment" element={<Assessment />} />
+        <Route path="/workspace" element={<Workspace />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
